@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edulogy</title>
+    <script src="https://kit.fontawesome.com/da20059163.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <p><i class="fa-solid fa-phone"></i> +90 543 123 45 67</p>
+            <p><i class="fa-solid fa-envelope"></i> info@yoursite.com</p>
+            <div class="header-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+        <div>
+            <div class="header-2">
+                <div><img src="https://themewagon.github.io/edulogy/images/logo.png"></div>
+                <div>
+                <nav>
+                    <a href="">Home</a>
+                    <a href="">Mega Menu</a>
+                    <a href="">Events</a>
+                    <a href="">Shop</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></a>
+                    <a href=""><i class="fa-solid fa-basket-shopping"></i>(0)</a>
+                </nav></div>
+            </div>
+            <div class="header-title">
+                <h1>Learning Management System</h1>
+                <p class="italic"><em>Edulogy is the ideal choice for your organization, your business and your online education system. Create your online course now with unlimited page templates, color options, and menu features.</em></p>
+                <button id="read-more">Read More</button>
+                <button id="buy-now">Buy Now</button>
+                <p class="explore">EXPLORE</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="passionate">
+            <div class="section1-div">
+                <div class="block">
+                    <p>576x906</p>
+                </div>
+                <div class="sidediv">
+                    <p class="title1">We are a passionate <span class="span">learning system</span> from
+                        London. Do beautiful and easy-to-use digital
+                        design & web development</p>
+                    <p class="text">Nam dictum sem, ipsum aliquam . Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.</p>
+                    <div class="list">
+                        <div>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Custom Shortcodes</li>
+                            <li><i class="fa-solid fa-check"></i> Visual Page Builder</li>
+                            <li><i class="fa-solid fa-check"></i> Unlimited Shortcodes</li>
+                            <li><i class="fa-solid fa-check"></i> Responsive Theme</li>
+                            <li><i class="fa-solid fa-check"></i> Tons of Layouts</li>
+                        </ul></div>
+                        <div>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Font Awesome Icons</li>
+                            <li><i class="fa-solid fa-check"></i> Pre-Defined Colors</li>
+                            <li><i class="fa-solid fa-check"></i> AJAX Transitions</li>
+                            <li><i class="fa-solid fa-check"></i> High Quality Support</li>
+                            <li><i class="fa-solid fa-check"></i> Unlimited Options</li>
+                        </ul></div>
+                        <div>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Shopping Layouts</li>
+                            <li><i class="fa-solid fa-check"></i> Pre-Defined Fonts</li>
+                            <li><i class="fa-solid fa-check"></i> Style Changers</li>
+                            <li><i class="fa-solid fa-check"></i> Footer Styles</li>
+                            <li><i class="fa-solid fa-check"></i> Header Shortcodes</li>
+                        </ul></div>
+                    </div>
+                    <button class="btn">Learn More About Us</button>
+                </div>
+            </div>
+        </section>
+        <section id="section2">
+            <p class="title1">Recent Courses</p>
+            <p class="italic"><em>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</em></p>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="block">
+                        <p>800x800</p>
+                    </div>
+                    <div class="div1">
+                        <p class="t1">Design</p>
+                        <p class="t2">Designing Game UI Assets in Adobe Illustrator</p>
+                        <p class="text">Curabitur condimentum velit non odio mattis tritique. Nam vitae nasiq aliquam</p>
+                    </div>
+                    <div class="div2">
+                        <p><i class="fa-solid fa-user"></i> 41</p>
+                        <p><i class="fa-regular fa-clock"></i> 33 Min.</p>
+                        <p class="price">$55.00</p>
+                    </div> 
+                </div>
+                <div class="grid-item">
+                    <div class="block">
+                        <p>800x800</p>
+                    </div>
+                    <div class="div1">
+                        <p class="t1">PHP Coding</p>
+                        <p class="t2">How to become a Web Developer: Learn PHP</p>
+                        <p class="text">Curabitur condimentum velit non odio mattis tritique. Nam vitae nasiq aliquam</p>
+                    </div>
+                    <div class="div2">
+                        <p><i class="fa-solid fa-user"></i> 41</p>
+                        <p><i class="fa-regular fa-clock"></i> 33 Min.</p>
+                        <p class="price">$55.00</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="block">
+                        <p>800x800</p>
+                    </div>
+                    <div class="div1">
+                        <p class="t1">PHP Coding</p>
+                        <p class="t2">How to Build a custom theme for Drupal 8</p>
+                        <p class="text">Curabitur condimentum velit non odio mattis tritique. Nam vitae nasiq aliquam</p>
+                    </div>
+                    <div class="div2">
+                        <p><i class="fa-solid fa-user"></i> 41</p>
+                        <p><i class="fa-regular fa-clock"></i> 33 Min.</p>
+                        <p class="price">$55.00</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="block">
+                        <p>800x800</p>
+                    </div>
+                    <div class="div1">
+                        <p class="t1">JavaScript</p>
+                        <p class="t2">Modern JavaScript Linting with ESLint</p>
+                        <p class="text">Curabitur condimentum velit non odio mattis tritique. Nam vitae nasiq aliquam</p>
+                    </div>
+                    <div class="div2">
+                        <p><i class="fa-solid fa-user"></i> 41</p>
+                        <p><i class="fa-regular fa-clock"></i> 33 Min.</p>
+                        <p class="price">$55.00</p>
+                    </div>
+                </div>
+            </div>
+            <p><i></i></p>
+            <p><i></i></p>
+            <button class="btn">View All Courses</button>
+        </section>
+
+
+        <section id="section3">
+            <div class="banner"><p >Howdy, we are Edulogy, we have brought together the best quality services, offers, projects for you!</p></div>
+            <div class="grid">
+                <div class="grid-1">
+                    <img src="computer-tool-for-education.png">
+                    <p class="textG">Learning System</p>
+                    <p class="text">All sections required for online training are included to Edulogy.</p>
+                    <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="grid-2">
+                    <img src="phone-tablet-and-laptop.png">
+                    <p class="textG">Works all mobile devices</p>
+                    <p class="text">The most important feature of this template is that it is compatible with all mobile devices. Your customers can also visit your site easily from tablets and phones.</p>
+                    <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="grid-3">
+                    <img src="download-business-statistics-symbol-of-a-graphic.png">
+                    <p class="textG">User DashBoard</p>
+                    <p class="text">We designed the design of all the sub-pages needed for the users.</p>
+                    <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="grid-4">
+                    <div><img src="html-5.png"><img src="css-3.png"></div>
+                    <p class="textG">Compatible HTML5 & CSS3</p>
+                    <p class="text">HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current version of the HTML standard.</p>
+                    <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="grid-5">
+                    <img src="html.png">
+                    <p class="textG">Bootstrap Framework</p>
+                    <p class="text">Bootstrap is a technique of loading a program into a computer by means of a few initial instructions which enable the introduction of the rest of the program from an input device.</p>
+                    <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </section>
+        <section id="count">
+            <div class="count-div">
+                <p class="t1">1230</p>
+                <p class="t2"><img src="black-graduation-cap-tool-of-university-student-for-head.png"> | Happy Students</p>
+                <p class="t3 italic"><em>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis.</em></p>
+            </div>
+            <div class="count-div">
+                <p class="t1">331</p>
+                <p class="t2"><img src="online-training.png"> | Course Done</p>
+                <p class="t3 italic"><em>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis.</em></p>
+            </div>
+            <div class="count-div">
+                <p class="t1">8901</p>
+                <p class="t2"><img src="coffee.png"> | Ordered Coffees</p>
+                <p class="t3 italic"><em>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis.</em></p>
+            </div>
+        </section>
+        <section id="testimony">
+            <p class="title1">Testimonials</p>
+            <p class="italic"><em>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</em></p>
+            <div class="test-grid">
+                <div class="test-item">
+                    <div class="for-layout">
+                    <div class="testd-div">
+                        <div class="block">
+                            <p class="small">80x80</p>
+                        </div>
+                        <p class="tname">Jenny LUXURY</p></div>
+                    <p class="t italic">Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
+                    <p><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i></p></div>
+                </div>
+                <div class="test-item">
+                    <div class="for-layout">
+                    <div class="testd-div">
+                        
+                        <div class="block">
+                            <p class="small">80x80</p>
+                        </div>
+                        <p class="tname">Martin LEO</p></div>
+                    <p class="t italic">Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
+                    <p><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i></p></div>
+                </div>
+                <div class="test-item">
+                    <div class="for-layout">
+                    <div class="testd-div">
+                        <div class="block">
+                            <p class="small">80x80</p>
+                        </div>
+                        <p class="tname">John DOE</p></div>
+                    <p class="t italic">Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
+                    <p><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i></p></div>
+                </div>
+            </div>
+        </section>
+        <section id="news">
+            <p class="title1">Recent News</p>
+            <p class="italic"><em>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</em></p>
+            <div class="newsF">
+                <div class="news-item">
+                    <div class="npad">
+                        <div class="block">
+                            <p>1000x563</p>
+                        </div>
+                        <div class="oTexts">
+                        <p class="t2">How to learn perfect code with Javascript</p>
+                        <p class="text">Praesent at suscipit ligula. Suspendisse pre neque, quis suscipit enim. sed maximus, mia auctor.</p>
+                        <div class="nbottom">
+                            <p>21 March 2017</p>
+                            <p>by WP Destek</p>
+                            <p>14 Share</p>
+                        </div></div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="npad">
+                        <div class="block">
+                            <p>1000x563</p>
+                        </div>
+                        <div class="oTexts">
+                        <p class="t2">The most suitable web design & development tutorials</p>
+                        <p class="text">Praesent at suscipit ligula. Suspendisse pre neque, quis suscipit enim. sed maximus, mia auctor.</p>
+                        <div class="nbottom">
+                            <p>21 March 2017</p>
+                            <p>by WP Destek</p>
+                            <p>14 Share</p>
+                        </div></div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="npad">
+                        <div class="block">
+                            <p>1000x563</p>
+                        </div>
+                        <div class="oTexts">
+                            <p class="t2">Design for all mobile devices! This is name "responsive"</p>
+                            <p class="text">Praesent at suscipit ligula. Suspendisse pre neque, quis suscipit enim. sed maximus, mia auctor.</p>
+                            <div class="nbottom">
+                                <p>21 March 2017</p>
+                                <p>by WP Destek</p>
+                                <p>14 Share</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="price">
+            <div class="price-col">
+                <p class="p1"><span style="font-size: 25px;">$</span>49.99<br><span class="p2">Start your awesome courses today!</span></p>
+            </div>
+            <div>
+                <p class="p3">Limited time offer! Your profile will be added to our "Students" directory as well.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="sub temp">
+                <p class="textf">Subscribe Our Newsletter</p>
+                <p class="text">You can opt out of our newsletters at any time.<br>See our privacy policy</p>
+                <form>
+                    <input type="email" placeholder="Enter email here"><button><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+                <img src="https://themewagon.github.io/edulogy/images/payments.png" width="70%">
+            </div>
+            <div class="join temp">
+                <p class="textf">Join us today</p>
+                <p class="text">Would you like to earn your profits by joining our team? Join us without losing time.</p>
+                <a href="">Become a teacher <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            
+            <div class="divss">
+                <p class="textf">Popular Tags</p>
+                <div class="pop">
+                    <p>course</p>
+                    <p>web design</p>
+                    <p>development</p>
+                    <p>language</p>
+                    <p>teacher</p>
+                    <p>speaking</p>
+                    <p>material</p>
+                    <p>css3</p>
+                    <p>html</p>
+                    <p>learning</p></div>
+            </div>
+            <div class="support temp">
+                <p class="textf">Support</p>
+                <ul class="text">
+                    <list><p>Terms of Use</p></list>
+                    <list><p>Copyrights</p></list>
+                    <list><p>Create a Ticket</p></list>
+                    <list><p>Pricing & Plans</p></list>
+                    <list><p>Carrier</p></list>
+                    <list><p>Trademark</p></list>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <img src="https://themewagon.github.io/edulogy/images/logo.png">
+            <div><p>Design: <a href="">HTML.Design</a></p><p>Distributed by: <a href="">ThemeWagon</a></p></div>
+        </div>
+    </footer>
+</body>
+</html>
