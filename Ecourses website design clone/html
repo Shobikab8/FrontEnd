@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecourses</title>
+    <script src="https://kit.fontawesome.com/da20059163.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <div class="name">
+                <p><span style="color: rgb(255, 111, 0);">E</span>COURSES </p>
+            </div>
+            <div class="contacts">
+                <div class="contact">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="text-container">
+                    <h4>Our Office</h4>
+                    <p>123 Street, New York, USA</p></span></div>
+                </div>
+                <div class="contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="text-container">
+                    <h4>Email Us</h4>
+                    <p>info@example.com</p></div>
+                </div>
+                <div class="contact">
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                    <div class="text-container">
+                    <h4>Call Us</h4>
+                    <p>+012 345 6789</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="heading-nav">
+            <nav>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Courses</a>
+                <a href="">Teachers</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+                <button id="join">Join now</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+        <div class="aboutUs">
+            <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/about.jpg">
+            <div class="about-right">
+                <p class="title">ABOUT US</p>
+                <h2 class="title2">Innovative Way To Learn</h2>
+                <p class="textBox">Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo aliquyam ipsum stet</p><br>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section id="subjects">
+        <p class="title">SUBJECTS</p><br>
+        <h2 class="title2">Explore Top Subjects</h2>
+        <div class="grid-container">
+            
+                <div class="grid-items">
+                    <a href="home1.html" target="_self">
+                    <div class="grid-text">
+                        <h5>Web Design</h5><br>
+                        <p>100 Courses</p>
+                    </div>
+                    <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/cat-1.jpg">
+                </a>
+                </div>
+            
+
+            
+                <div class="grid-items">
+                    <a href="home1.html" target="_self">
+                    <div class="grid-text">
+                        <h5>Development</h5><br>
+                        <p>100 Courses</p>
+                    </div>
+                    
+                        <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/cat-2.jpg">
+                    </a>
+                </div>
+            
+
+            
+                <div class="grid-items">
+                    <a href="home1.html" target="_self">
+                    <div class="grid-text">
+                        <h5>Game Design</h5><br>
+                        <p>100 Courses</p>
+                    </div>
+                    
+                        <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/cat-3.jpg">
+                    </a>
+                </div>
+            
+
+            
+                <div class="grid-items">
+                    <a href="home1.html" target="_self">
+                    <div class="grid-text">
+                        <h5>Apps Design</h5><br>
+                        <p>100 Courses</p>
+                    </div>
+                    
+                        <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/cat-4.jpg">
+                    </a>
+                </div>
+            
+
+            
+                <div class="grid-items">
+                    <a href="home1.html" target="_self">
+                    <div class="grid-text">
+                        <h5>Marketing</h5><br>
+                        <p>100 Courses</p>
+                    </div>
+                    
+                        <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/cat-5.jpg">
+                    </a>
+                </div>
+            
+
+            
+                <div class="grid-items">
+                    <a href="home1.html" target="_self">
+                    <div class="grid-text">
+                        <h5>Research</h5><br>
+                        <p>100 Courses</p>
+                    </div>
+                    
+                        <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/cat-6.jpg">
+                    </a>
+                </div>
+            
+
+            
+                <div class="grid-items">
+                    <a href="home1.html" target="_self">
+                    <div class="grid-text">
+                        <h5>Content Writing</h5><br>
+                        <p>100 Courses</p>
+                    </div>
+                    
+                        <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/cat-7.jpg">
+                    </a>
+                </div>
+            
+
+            
+                <div class="grid-items">
+                    <a href="home1.html" target="_self">
+                    <div class="grid-text">
+                        <h5>SEO</h5><br>
+                        <p>100 Courses</p>
+                    </div>
+                    
+                        <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/cat-8.jpg">
+                    </a>
+                </div>
+            
+        </div>
+    </section>
+    
+    <section id="courses">
+        <p class="title">COURSES</p><br>
+        <h2 class="title2">Our Popular Courses</h2><br>
+        <div class="course-grid">
+            <div class="course-items">
+                <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/course-1.jpg" width="300px" height="200px">
+                <div style="font-size: smaller;"><p><i class="fa-solid fa-users"></i> 25 students</p><p><i class="fa-regular fa-clock"></i> 01h 30m</p></div>
+                <a href="home1.html"><h3>Web design & development course for beginners</h3></a>
+                <div id="rating"><p><i class="fa-solid fa-star"></i> 4.5 <span>(250)</span></p><p style="font-size: large; font-weight: bold;">$99</p></div>
+            </div>
+            <div class="course-items">
+                <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/course-2.jpg" width="300px" height="200px">
+                <div style="font-size: smaller;"><p><i class="fa-solid fa-users"></i> 25 students</p><p><i class="fa-regular fa-clock"></i> 01h 30m</p></div>
+                <a href="home1.html"><h3>Web design & development course for beginners</h3></a>
+                <div id="rating"><p><i class="fa-solid fa-star"></i> 4.5 <span>(250)</span></p><p style="font-size: large; font-weight: bold;">$99</p></div>
+            </div>
+            <div class="course-items">
+                <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/course-3.jpg" width="300px" height="200px">
+                <div style="font-size: smaller;"><p><i class="fa-solid fa-users"></i> 25 students</p><p><i class="fa-regular fa-clock"></i> 01h 30m</p></div>
+                <a href="home1.html"><h3>Web design & development course for beginners</h3></a>
+                <div id="rating"><p><i class="fa-solid fa-star"></i> 4.5 <span>(250)</span></p><p style="font-size: large; font-weight: bold;">$99</p></div>
+            </div>
+            <div class="course-items">
+                <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/course-4.jpg" width="300px" height="200px">
+                <div style="font-size: smaller;"><p><i class="fa-solid fa-users"></i> 25 students</p><p><i class="fa-regular fa-clock"></i> 01h 30m</p></div>
+                <a href="home1.html"><h3>Web design & development course for beginners</h3></a>
+                <div id="rating"><p><i class="fa-solid fa-star"></i> 4.5 <span>(250)</span></p><p style="font-size: large; font-weight: bold;">$99</p></div>
+            </div>
+            <div class="course-items">
+                <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/course-5.jpg" width="300px" height="200px">
+                <div style="font-size: smaller;"><p><i class="fa-solid fa-users"></i> 25 students</p><p><i class="fa-regular fa-clock"></i> 01h 30m</p></div>
+                <a href="home1.html"><h3>Web design & development course for beginners</h3></a>
+                <div id="rating"><p><i class="fa-solid fa-star"></i> 4.5 <span>(250)</span></p><p style="font-size: large; font-weight: bold;">$99</p></div>
+            </div>
+            <div class="course-items">
+                <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/course-6.jpg" width="300px" height="200px">
+                <div style="font-size: smaller;"><p><i class="fa-solid fa-users"></i> 25 students</p><p><i class="fa-regular fa-clock"></i> 01h 30m</p></div>
+                <a href="home1.html"><h3>Web design & development course for beginners</h3></a>
+                <div id="rating"><p><i class="fa-solid fa-star"></i> 4.5 <span>(250)</span></p><p style="font-size: large; font-weight: bold;">$99</p></div>
+            </div>
+        </div>
+    </section>
+    <section id="need">
+        <div class="sectClass"></div>
+        <div class="sectContainer">
+        <div class="needText">
+            <h4 class="title">NEED ANY COURSES</h4><br>
+            <p class="title2" style="color: white;"><strong>30% Off For New Students</strong></p>
+            <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Labore eos amet dolor amet diam</li>
+                <li><i class="fa-solid fa-check"></i> Etsea et sit dolor amet ipsum</li>
+                <li><i class="fa-solid fa-check"></i> Diam dolor diam elitripsum vero.</li>
+            </ul>
+        </div>
+        <div class="signUp">
+            <h2>Sign Up Now</h2>
+            <form>
+                <input type="text" id="username" placeholder="Your name"><br>
+                <input type="email" id="mail" placeholder="Your email"><br>
+                <select name="courseName" id="courseName">
+                    <option value="default">Select a Course</option>
+                    <option value="Course 1">Course 1</option>
+                    <option value="Course 2">Course 2</option>
+                    <option value="Course 3">Course 3</option>
+                </select>
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="teachers">
+            <p class="title">TEACHERS</p><br>
+            <h2 class="title2">Meet Our Teachers</h2>
+            <div class="teacher-grid">
+                <div class="teacher-item">
+                    <div class="teach-icon">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i></div>
+                    <img class="t-img" src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/team-1.jpg" >
+                    <p class="names">John Doe</p>
+                    <p>Web Designer</p>
+                </div>
+                <div class="teacher-item">
+                    <div class="teach-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i></div>
+                    <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/team-2.jpg" >
+                    <p class="names">John Doe</p>
+                    <p>Web Designer</p>
+                </div>
+                <div class="teacher-item">
+                    <div class="teach-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i></div>
+                    <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/team-3.jpg" >
+                    <p class="names">John Doe</p>
+                    <p>Web Designer</p>
+                </div>
+                <div class="teacher-item">
+                    <div class="teach-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i></div>
+                    <img src="https://demo.htmlcodex.com/1427/online-courses-html-template/img/team-4.jpg" >
+                    <p class="names">John Doe</p>
+                    <p>Web Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="testimony">
+            <p class="title">TESTIMONIAL</p><br>
+            <h2 class="title2">What Our Students Say</h2>
+            <h2><i class="fa-solid fa-quote-left"></i></h2>
+            <p class="text">Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita sadipscing et erat eirmod diam kasd labore clita est. Diam vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam.</p>
+            <div class="dots">
+                <p><i class="fa-solid fa-circle-dot"></i></p><p><i class="fa-solid fa-circle-dot"></i></p><p><i class="fa-solid fa-circle-dot"></i></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div>
+            <p class="title">OUR BLOG</p><br>
+            <h2 class="title2">Latest From Out Blog</h2>
+            <div class="blog-grid">
+                    <div class="blog-item1">
+                        <div class="textContent">
+                            <p>Lorem elitr magna stet eirmod labore amet labore clita at ut clita</p>
+                            <p class="date">Jan 01, 2050</p>
+                        </div>
+                    </div>
+                
+                <div class="blog-item2">
+                        <div class="textContent">
+                            <p>Lorem elitr magna stet eirmod labore amet labore clita at ut clita</p>
+                            <p class="date">Jan 01, 2050</p>
+                        </div>
+                </div>
+                <div class="blog-item3">
+                        <div class="textContent">
+                            <p>Lorem elitr magna stet eirmod labore amet labore clita at ut clita</p>
+                            <p class="date">Jan 01, 2050</p>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer-top">
+        <div class="foot1">
+            <h3 class="title">GET IN TOUCH</h3>
+            <p><i class="fa-solid fa-location-dot"></i> 123 Street, New York, USA</p>
+            <p><i class="fa-solid fa-phone" aria-hidden="true"></i> +012 345 67890</p>
+            <p><i class="fa-solid fa-envelope"></i> info@example.com</p>
+            <div class="socials">
+                <p><i class="fa-brands fa-twitter"></i></p>
+                <p><i class="fa-brands fa-facebook"></i></p>
+                <p><i class="fa-brands fa-linkedin"></i></p>
+                <p><i class="fa-brands fa-instagram"></i></p>
+            </div>
+        </div>
+        <div class="foot2">
+            <h3 class="title">OUR COURSES</h3>
+            <ul>
+                <li><p><i class="fa-solid fa-greater-than"></i> Web Design</p></li>
+                <li><p><i class="fa-solid fa-greater-than"></i> Apps Design</p></li>
+                <li><p><i class="fa-solid fa-greater-than"></i> Marketing</p></li>
+                <li><p><i class="fa-solid fa-greater-than"></i> Research</p></li>
+                <li><p><i class="fa-solid fa-greater-than"></i> SEO</p></li>
+            </ul>
+        </div>
+        <div class="foot3">
+            <h3 class="title">NEWSLETTER</h3>
+            <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
+            <form class="footerSignUp">
+                <input type="email" placeholder="Your Email Address"><button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+        <div class="footerPart">
+            <p>© <span class="short">Domain Name</span>. All Rights Reserved. Designed by <span class="short">HTML Codex</span></p>
+            <div class="words-foot">
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>FAQs</p>
+                <p>Help</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
