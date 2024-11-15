@@ -1,0 +1,58 @@
+var currBalance = 30000;
+const balText = document.getElementById("balText");
+const withdraw = document.getElementById("withdraw");
+const deposit = document.getElementById("deposit");
+const form = document.getElementById("form");
+const input = document.getElementById("inputField");
+const submitButton = document.getElementById("button");
+let userInput = 0;
+    formDisplay(false);
+
+    function formDisplay(show) {
+        form.style.display = show ? "block" : "none";
+    }
+    //withdraw event and function
+    function submitFormW(event){
+        event.preventDefault();
+        let inputW = Number(input.value);
+        if(inputW <= currBalance && inputW>0){
+            currBalance = currBalance-inputW;
+            alert("Amount withdrawn successfully");
+            balText.innerText = currBalance;
+            formDisplay(false);
+            input.value = "";
+            deposit.style.display = "inline";
+        }
+        else{
+            alert("Invalid amount");
+        }
+    }
+
+    withdraw.onclick = function(){
+        formDisplay(true);
+        deposit.style.display = "none";
+        submitButton.onclick = submitFormW;
+    }
+
+    //deposit event and function
+    function submitFormD(event){
+        event.preventDefault();
+        let inputD = Number(input.value);
+        if(inputD >0){
+            currBalance = currBalance+inputD;
+            alert("Amount deposited successfully");
+            balText.innerText = currBalance;
+            formDisplay(false);
+            input.value = "";
+            withdraw.style.display = "inline";
+        }
+        else{
+            alert("Invalid amount");
+        }
+    }
+
+    deposit.onclick = function(){
+        formDisplay(true);
+        withdraw.style.display = "none";
+        submitButton.onclick = submitFormD;
+    }
