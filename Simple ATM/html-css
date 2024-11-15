@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 39%;
+            margin-top: 15%;
+            
+        }
+        button{
+            background-color: chocolate;
+            color: whitesmoke;
+            border: none;
+            padding: 15px;
+            font-size: 18px;
+        }
+        div{
+            border: 1px solid white;
+            width: fit-content;
+            padding: 15px;
+            text-align: center;
+            background-color: whitesmoke;
+            border-radius: 6px;
+        }
+        #outerDiv{
+            background-color: rgb(228, 142, 80);
+            width: fit-content;
+            border-radius: 10px;
+        }
+        form{
+            margin-top: 15px;
+        }
+        input[type = "number"]{
+            font-size: 14px;
+        }
+        form button{
+            font-size: 12px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="outerDiv">
+        <div>
+        <h2>Welcome!</h2>
+        <h1>Current Balance: <span id="balText">30000</span></h1>
+        <button id="withdraw">Withdraw</button>
+        <button id="deposit">Deposit</button>
+        
+        <form id="form">
+            <input type="number" placeholder="Enter amount" id="inputField"><br>
+            <button type="submit" id="button">Confirm and submit</button>
+        </form>
+        </div>
+    </div>
+    
+    <script src="ATM.js"></script>
+</body>
+</html>
