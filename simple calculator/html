@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 42%;
+            margin-top: 10%;
+        }
+        .inputBox{
+            text-align: right;
+            margin: 15px 5px 15px 5px;
+            width: 230px;
+            height: 40px;
+            background-color: rgb(181, 180, 180);
+            font-size: 18px;
+        }
+        .calculator{
+            border: 2px solid gray;
+            width: fit-content;
+            padding: 20px;
+            button{
+                cursor: pointer;
+            }
+        }
+        .calculator .btn{
+            margin: 5px;
+            font-size: 16px;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="inputBox" id="result" placeholder="0">
+        <br>
+        <button class="btn" onclick="appendValue('7')">7</button>
+        <button class="btn" onclick="appendValue('8')">8</button>
+        <button class="btn" onclick="appendValue('9')">9</button>
+        <button class="btn" onclick="appendValue('/')">/</button>
+        <br>
+        <button class="btn" onclick="appendValue('4')">4</button>
+        <button class="btn" onclick="appendValue('5')">5</button>
+        <button class="btn" onclick="appendValue('6')">6</button>
+        <button class="btn" onclick="appendValue('*')">*</button>
+        <br>
+        <button class="btn" onclick="appendValue('1')">1</button>
+        <button class="btn" onclick="appendValue('2')">2</button>
+        <button class="btn" onclick="appendValue('3')">3</button>
+        <button class="btn" onclick="appendValue('-')">-</button>
+        <br>
+        <button class="btn" onclick="appendValue('0')">0</button>
+        <button class="btn" onclick="appendValue('.')">.</button>
+        <button class="btn" onclick="clearResult()">C</button>
+        <button class="btn" onclick="appendValue('+')">+</button>
+        <br>
+        <button class="btn" style="width: 150px; margin: 15px; margin-left: 50px;" onclick="calculateResult()">=</button>
+    </div>
+    <script src="calculator1.js"></script>
+</body>
+</html>
