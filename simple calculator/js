@@ -1,0 +1,11 @@
+let result = document.getElementById("result");
+
+function appendValue(string){
+    result.value+= string;
+}
+function clearResult(){
+    result.value= "";
+}
+function calculateResult(){
+    result.value = eval(result.value);
+}
